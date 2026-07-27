@@ -66,13 +66,14 @@ ERD.pdf
 
 ![Buyer Profile](screenshots/buyer-profile.png)
 
-### Seller Profile
-
-![Seller Profile](screenshots/seller-profile.png)
 
 ### Employee Dashboard
 
 ![Employee Dashboard](screenshots/employee-dashboard.png)
+
+### Transactions
+
+![Seller Profile](screenshots/transactions.png)
 
 ## How to Run
 
