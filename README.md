@@ -1,26 +1,120 @@
-# Database_course_project
-This main goal of the project is to develop a database application for a real client. The client should be some  kind of organization that has substantial transactions (both financial, and physical e.g. products).
+# Real Estate Management System
 
+A database-driven web application developed to manage properties, clients, owners, contracts, and real estate transactions for a real estate company.
 
-HOME Page: 
-https://github.com/user-attachments/assets/981102e0-fdc3-40cf-8a5b-677b6b2eb6f8 
+## Features
 
-Login Page: 
-https://github.com/user-attachments/assets/9a1f6800-872c-4c61-999e-02474b1b7c5d 
+* Buyer, seller, and employee login
+* Property listing and filtering
+* Client and owner management
+* Add, edit, and delete properties
+* Contract and transaction management
+* Buyer and seller profiles
+* Employee dashboard
+* Contact and property request management
 
-Buyer Login: 
-https://github.com/user-attachments/assets/ad838024-a87e-42f8-a171-10ba54391b17 
+## Technologies
 
-Properties filter: 
-https://github.com/user-attachments/assets/13477af8-3a19-4727-b148-6686720e4ccf 
+* PHP
+* MySQL
+* SQL
+* HTML
+* CSS
+* JavaScript
 
-Seller Login: 
-https://github.com/user-attachments/assets/6c87e6a8-3e7d-4fd3-804f-652448d3f478 
+## Database
 
-Employee Login: 
-https://github.com/user-attachments/assets/f7825195-6411-45b7-85e6-838dd1427d32 
+The database includes entities for:
 
-https://github.com/user-attachments/assets/d90fc73f-1606-425e-a6fa-0d21e125bb47 
+* Clients
+* Owners
+* Employees
+* Properties
+* Contracts
+* Transactions
+* Buy requests
+* Sell requests
+* Contact requests
 
-https://github.com/user-attachments/assets/17ccad2f-d705-4830-bf83-9a8a2f6e9709 
+The SQL script is available in:
 
+```text
+Project_real_estate.sql
+```
+
+The Entity Relationship Diagram is available in:
+
+```text
+ERD.pdf
+```
+
+## Screenshots
+
+### Home Page
+
+![Home Page](screenshots/home-page.png)
+
+### Login Page
+
+![Login Page](screenshots/login-page.png)
+
+### Property Filtering
+
+![Property Filtering](screenshots/property-filter.png)
+
+### Buyer Profile
+
+![Buyer Profile](screenshots/buyer-profile.png)
+
+### Seller Profile
+
+![Seller Profile](screenshots/seller-profile.png)
+
+### Employee Dashboard
+
+![Employee Dashboard](screenshots/employee-dashboard.png)
+
+## How to Run
+
+1. Install XAMPP or another PHP and MySQL environment.
+2. Clone the repository into the `htdocs` directory.
+3. Start Apache and MySQL.
+4. Create a database named:
+
+```text
+realestatecompany
+```
+
+5. Import:
+
+```text
+Project_real_estate.sql
+```
+
+6. Copy:
+
+```text
+MysqlConnection.example.php
+```
+
+and rename it to:
+
+```text
+MysqlConnection.php
+```
+
+7. Add your local MySQL credentials.
+8. Open the project in the browser:
+
+```text
+http://localhost/real-estate-management-system
+```
+
+## Academic Context
+
+Developed as a Database Systems course project at Birzeit University.
+
+## Contributors
+
+* Masa Jalamneh
+* Klarien Wassaya
